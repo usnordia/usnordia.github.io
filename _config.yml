@@ -24,7 +24,7 @@ url: "https://usnordia.github.io/"
 
 
 # Build settings
-theme: hacker
+theme: Cayman
 plugins:
   - jekyll-feed
 
