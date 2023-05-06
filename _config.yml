@@ -22,13 +22,11 @@ title: Using the ICANHAZDADJOKE API
 email: diane_norris@outlook.com
 url: "https://usnordia.github.io/"
 
- description: >-
+ description:
         Detailed description goes here.
 
 
-        And here's some code:
-
-            curl https://example.com/something -H "Accept: application/json"
+       curl https://example.com/something -H "Accept: application/json"
 
       responses:
         200:
