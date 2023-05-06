@@ -1,4 +1,4 @@
-# xxxx Overview
+# Overview
 The icahazdadjoke API endpoint enables you to reach a set of daily
 jokes on the icahazdadjoke.com web page. With queries as part of the
 Search function, you can use keywords to browse through a list of jokes.
