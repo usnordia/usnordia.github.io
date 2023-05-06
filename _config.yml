@@ -23,14 +23,10 @@ email: diane_norris@outlook.com
 url: "https://usnordia.github.io/"
 
 description: >- 
-  
-```json
+
   curl https://example.com/something -H "Accept: application/json"
 
-      responses:
-        200:
-          description: Successful response
-```
+
 
      
 
