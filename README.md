@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
-  
-<md-block>
-  
+
 # Overview
 The icahazdadjoke API endpoint enables you to reach a set of daily
 jokes on the icahazdadjoke.com web page. With queries as part of the
@@ -36,9 +31,6 @@ https://jekyllrb.com/docs/installation/windows/
 https://rubyinstaller.org/downloads/
 
 
-</mdblock>  
-  
-</body>
-</html>
+
 
 
