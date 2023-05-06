@@ -22,10 +22,6 @@ title: Using the ICANHAZDADJOKE API
 email: diane_norris@outlook.com
 url: "https://usnordia.github.io/"
 
-description: >- 
-
-  curl https://example.com/something -H "Accept: application/json"
-
 # Build settings
 theme: minima
 plugins:
