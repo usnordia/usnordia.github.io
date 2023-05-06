@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Using the ICANHAZDADJOKE API
-email: diane_Norris@outlook.com
+email: diane_norris@outlook.com
 url: "https://usnordia.github.io/"
 
 
 # Build settings
-theme: minima
+theme: hacker
 plugins:
   - jekyll-feed
 
