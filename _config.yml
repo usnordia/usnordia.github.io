@@ -26,15 +26,10 @@ description: >-
 
   curl https://example.com/something -H "Accept: application/json"
 
-
-
-     
-
-
 # Build settings
-remote_theme: pages-themes/minima@v0.2.0
+theme: minima
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
