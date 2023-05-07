@@ -5,12 +5,17 @@ Search function, you can use keywords to browse through a list of jokes.
 
 This documentation includes three parts:
 * an Overview of the icanhazdadjoke API endpoint
-* a step-by-step tutorial for using the icahazdadjoke API endpoint, and
-* the reference the OpenAPI specification for the icahazdadjoke API endpoint.
+* a step-by-step tutorial for using the icanhazdadjoke API endpoint, and
+* the reference the OpenAPI specification for the icanhazdadjoke API endpoint.
 
 # Step-by-Step Tutorial
+You can use the icanhazdadjoke API with the command line or with an API platform, for example, Postman. This section explains both methods.
+## Windows Command Line
+text
+## Postman
+text
 
-# OpenAPI specification the icanhazdadjoke search endpoint
+# OpenAPI Specification
 The following contains the OpenAPI 3.1.0 endpoint documenation. The [APIMATIC SDK](https://www.apimatic.io/) generated the OpenAPI 3.1.0 documentation
 in YAML format.
 
