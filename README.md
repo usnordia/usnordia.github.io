@@ -22,14 +22,12 @@ Intellij IDE (link).
 using the programming
 language of your choice.
 
-The ReST Console is an HTTP Client in IntelliJ IDEA for
-RESTful Web Services.
-## How to Install the ReST Console
-The easiest way to install Ruby and Jekyll is by using the RubyInstaller for Windows.
-https://jekyllrb.com/docs/installation/windows/
-https://rubyinstaller.org/downloads/
+# Example Postman documentation
+![https://documenter.getpostman.com/view/27288597/2s93eYUBv8#98045b9d-4c89-4218-ac2e-3af41e5e48b0
+](image.png)
 
-# Example Response Body
+# Example Response Body as JSON format
+Example body with term = "meow". Gets all of the jokes that have this keywords; and it turns out there are two jokes.
 
 ```json
 
