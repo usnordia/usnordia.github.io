@@ -1,4 +1,4 @@
-The icahazdadjoke API endpoint enables you to reach a set of daily
+The icanhazdadjoke API endpoint enables you to reach a set of daily
 jokes on the icahazdadjoke.com web page. With queries as part of the
 Search function, you can use keywords to browse through a list of jokes.
 
@@ -7,8 +7,10 @@ This documentation includes three parts:
 * a step-by-step tutorial for using the icahazdadjoke API endpoint, and
 * the reference the OpenAPI specification for the icahazdadjoke API endpoint.
 
-# OpenAPI specification for the search endpoint
-The following contains the OpenAPI 3.1.0 endpoint documenation. THe [APIMATIC SDK](https://www.apimatic.io/) generated the OpenAPI 3.1.0 documentation
+# Step-by-Step Tutorial
+
+# OpenAPI specification the icanhazdadjoke search endpoint
+The following contains the OpenAPI 3.1.0 endpoint documenation. The [APIMATIC SDK](https://www.apimatic.io/) generated the OpenAPI 3.1.0 documentation
 in YAML format.
 
 ```json
