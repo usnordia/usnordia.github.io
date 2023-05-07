@@ -14,8 +14,6 @@ functionality of the API
 # OpenAPI specification for the search endpoint
 The following contains the OpenAPI 3.1.0 endpoint documenation.
 
-<details>
-<summary>OpenAPI 3.0.1 Specification</summary>
 
 ```json
 openapi: 3.1.0
@@ -519,14 +517,12 @@ tags:
 - name: Misc
   description: ''
 ```
-</details>
 
 
 
     
          
 
-```
 
 
 
