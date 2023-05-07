@@ -23,6 +23,8 @@ using the programming
 language of your choice.
 
 # Example Postman documentation
+You can navigagte to [here](https://documenter.getpostman.com/view/27288597/2s93eYUBv8#98045b9d-4c89-4218-ac2e-3af41e5e48b0) to access the example Postman documentation.
+
 ![https://documenter.getpostman.com/view/27288597/2s93eYUBv8#98045b9d-4c89-4218-ac2e-3af41e5e48b0
 ](image.png)
 
