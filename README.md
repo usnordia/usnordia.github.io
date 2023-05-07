@@ -4,15 +4,12 @@ Search function, you can use keywords to browse through a list of jokes.
 
 This documentation includes three parts:
 * an Overview of the icahazdadjoke API endpoint
-* the OpenAPI specification for the API endpoint, and
-* a step-by-step tutorial for using the API endpoint.
-
-single page overview that outlines the concepts and
-functionality of the API
+* a step-by-step tutorial for using the icahazdadjoke API endpoint, and
+* the reference the OpenAPI specification for the icahazdadjoke API endpoint.
 
 # OpenAPI specification for the search endpoint
-The following contains the OpenAPI 3.1.0 endpoint documenation.
-
+The following contains the OpenAPI 3.1.0 endpoint documenation. THe [APIMATIC SDK](https://www.apimatic.io/) generated the OpenAPI 3.1.0 documentation
+in YAML format.
 
 ```json
 openapi: 3.1.0
