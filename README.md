@@ -1,3 +1,4 @@
+# Overview
 The icahazdadjoke API endpoint enables you to reach a set of daily
 jokes on the icahazdadjoke.com web page. With queries as part of the
 Search function, you can use keywords to browse through a list of jokes.
@@ -28,11 +29,32 @@ The easiest way to install Ruby and Jekyll is by using the RubyInstaller for Win
 https://jekyllrb.com/docs/installation/windows/
 https://rubyinstaller.org/downloads/
 
+# Example Response Body
+
 ```json
-{ "some": "json" }
+
+{
+  "current_page": 1,
+  "limit": 20,
+  "next_page": 1,
+  "previous_page": 1,
+  "results": [
+    {
+      "id": "0DdaxAX0orc",
+      "joke": "I accidentally took my cats meds last night. Don’t ask meow."
+    },
+    {
+      "id": "BQfaxsHBsrc",
+      "joke": "What do you call a pile of cats?  A Meowtain."
+    }
+  ],
+  "search_term": "meow",
+  "status": 200,
+  "total_jokes": 2,
+  "total_pages": 1
+}
+
 ```
-
-
 
 
 
