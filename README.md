@@ -22,9 +22,9 @@ curl [options] [URL...]
 ```
 * URL -  https://icanhazdadjoke.com/search
 ### Query Parameters
-* term - the keyword to do a search on the array of jokes.
-* limit - the maximum number of jokes shown per page.
-* page - the current page number, e.g., 1, 2.
+* **term** - the keyword to do a search on the array of jokes.
+* **limit** - the maximum number of jokes shown per page.
+* **page** - the current page number, e.g., 1, 2.
 
 ## Windows Command Line
 1. Open a CMD Window.
@@ -64,15 +64,15 @@ curl -H "Accept: application/json" -H "User-Agent: ILF Test (https://github.com/
 You can set up the IntelliJ IDE with the [ReST Console plugin](https://plugins.jetbrains.com/plugin/8114-rest-console) to run the Request and get a Response (body).
 1. Install the ReST Console Plugin.
 2. Open the ReST Console.
-3. For the Method, select GET.
-4. In the URL box, enter "icanhazdadjoke.com/search".
-5. In the User-Agent box, enter "https://github.com/username/repo".
-6. For the Content-Type Header, select "appication/json".
-7. For the Accept Content-Type Header, select "application/json".
-8. In the Query Parameters Area, click the "+" sign and add "term" for the Key and "meow" for the Value (keyword).
-9. Click the SUBMIT button to get a response.
+3. For the **Method**, select GET.
+4. In the **URL** box, enter "icanhazdadjoke.com/search".
+5. In the **User-Agent** box, enter "https://github.com/username/repo".
+6. For the **Content-Type** Header, select "appication/json".
+7. For the **Accept Content-Type** Header, select "application/json".
+8. In the **Query Parameters Area**, click the "+" sign and add "term" for the Key and "meow" for the Value (keyword).
+9. Click the **SUBMIT** button to get a response.
 10. Example response: see the next section, "Example Response Body".
-11. Click Response > Headers to view the response header output as follows for example.
+11. Click **Response > Headers** to view the response header output as follows for example.
 ```
 Date: Mon, 08 May 2023 12:04:45 GMT
 Content-Type: application/json
