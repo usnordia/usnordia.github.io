@@ -130,7 +130,9 @@ OkHttp-Received-Millis: 1683547486678
 
 # OpenAPI Specification
 The following contains the OpenAPI 3.1.0 endpoint documentation. The [APIMATIC SDK](https://www.apimatic.io/) generated the OpenAPI 3.1.0 documentation
-in YAML format.
+in YAML format. To render the documentation in Swagger, copy and paste the YAML code that follows into the left pane of this page and click "Try it Out":
+[Swagger Editor](https://editor-next.swagger.io/).
+
 
 ```
 openapi: 3.1.0
