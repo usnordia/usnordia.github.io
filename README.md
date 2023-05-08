@@ -67,7 +67,7 @@ You can set up the IntelliJ IDE with the [ReST Console plugin](https://plugins.j
 3. For the **Method**, select GET.
 4. In the **URL** box, enter "icanhazdadjoke.com/search".
 5. In the **User-Agent** box, enter "https://github.com/username/repo".
-6. For the **Content-Type** Header, select "appication/json".
+6. For the **Content-Type** Header, select "application/json".
 7. For the **Accept Content-Type** Header, select "application/json".
 8. In the **Query Parameters Area**, click the "+" sign and add "term" for the Key and "meow" for the Value (keyword).
 9. Click the **SUBMIT** button to get a response.
@@ -102,7 +102,7 @@ OkHttp-Sent-Millis: 1683547486622
 OkHttp-Received-Millis: 1683547486678
 ```
 
-### Example Reponse Body
+### Example Response Body
 ```
 {
   "current_page": 1,
