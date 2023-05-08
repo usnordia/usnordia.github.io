@@ -10,16 +10,65 @@ This documentation includes three parts:
 
 # Step-by-Step Tutorial
 You can use the icanhazdadjoke API with the command line or with an API platform, for example, Postman. This section explains both methods.
+## API Structure
+### Method
+GET 
+### Request Headers
+* Accept - application/json
+* User-Agent: ILF Test (https://github.com/username/repo)
+## cURL Command
+```
+curl [options] [URL...]
+```
+* URL -  https://icanhazdadjoke.com/search
+### Query Parameters
+* term - the keyword to do a search on the array of jokes.
+* limit - the maximum number of jokes shown per page.
+* page - the current page number, e.g., 1, 2.
+
 ## Windows Command Line
-text
+The cURL command is as follows.
+```
+curl -H "Accept: application/json" -H "User-Agent: ILF Test (https://github.com/username/repo" https://icanhazdadjoke.com/search
+```
+### Example using the Term "Meow"
+To get and then show all of the jokes with the keyword "meow" type the command that follows.
+```
+curl -H "Accept: application/json" -H "User-Agent: ILF Test (https://github.com/username/repo" https://icanhazdadjoke.com/search?term=meow
+```
+### Example Reponse Body
+```
+{
+  "current_page": 1,
+  "limit": 30,
+  "next_page": 1,
+  "previous_page": 1,
+  "results": [
+    {
+      "id": "0DdaxAX0orc",
+      "joke": "I accidentally took my cats meds last night. Don’t ask meow."
+    },
+    {
+      "id": "BQfaxsHBsrc",
+      "joke": "What do you call a pile of cats?  A Meowtain."
+    }
+  ],
+  "search_term": "meow",
+  "status": 200,
+  "total_jokes": 2,
+  "total_pages": 1
+}
+```
 ## Postman
 text
+
+
 
 # OpenAPI Specification
 The following contains the OpenAPI 3.1.0 endpoint documenation. The [APIMATIC SDK](https://www.apimatic.io/) generated the OpenAPI 3.1.0 documentation
 in YAML format.
 
-```json
+```
 openapi: 3.1.0
 info:
   title: ICANHAZDADJOKE
