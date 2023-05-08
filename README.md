@@ -47,6 +47,11 @@ To get and then show all of the jokes with the keyword "meow" type the command t
 ```
 curl -H "Accept: application/json" -H "User-Agent: ILF Test (https://github.com/username/repo" https://icanhazdadjoke.com/search?term=meow
 ```
+Example Output
+```
+{"current_page":1,"limit":20,"next_page":1,"previous_page":1,"results":[{"id":"0DdaxAX0orc","joke":"I accidentally took my cats meds last night. Don\u2019t ask meow."},{"id":"BQfaxsHBsrc","joke":"What do you call a pile of cats?  A Meowtain."}],"search_term":"meow","status":200,"total_jokes":2,"total_pages":1}
+```
+
 ### Example using cURL with Two Query Parameters
 Append this to the end of the cURL command:
 ```
@@ -55,9 +60,47 @@ Append this to the end of the cURL command:
 ```
 curl -H "Accept: application/json" -H "User-Agent: ILF Test (https://github.com/username/repo" https://icanhazdadjoke.com/search?limit=10,page=1
 ```
-
 ## IntelliJ IDE
-You can set up the IntelliJ IDE with the xxx plugin to run the Request and get a response (body).
+You can set up the IntelliJ IDE with the [ReST Console plugin](https://plugins.jetbrains.com/plugin/8114-rest-console) to run the Request and get a Response (body).
+1. Install the ReST Console Plugin.
+2. Open the ReST Console.
+3. For the Method, select GET.
+4. In the URL box, enter "icanhazdadjoke.com/search".
+5. In the User-Agent box, enter "https://github.com/username/repo".
+6. For the Content-Type Header, select "appication/json".
+7. For the Accept Content-Type Header, select "application/json".
+8. In the Query Parameters Area, click the "+" sign and add "term" for the Key and "meow" for the Value (keyword).
+9. Click the SUBMIT button to get a response.
+10. Example response: see the next section, "Example Response Body".
+11. Click Response > Headers to view the response header output as follows for example.
+```
+Date: Mon, 08 May 2023 12:04:45 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-headers: User-Agent, Content-Type
+access-control-allow-methods: GET
+access-control-allow-origin: *
+access-control-max-age: 86400
+access-control-request-method: GET
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, public, s-maxage=0
+retry-after: 60
+x-frame-options: DENY
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+x-ratelimit-reset: 1683547546
+x-xss-protection: 1; mode=block
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fQKk5x5uLlhWAiJYfxTrlk038ef9P4bV1%2F0eeHCKIp%2BaZILZu5n%2BI1IASJGgPzUAJ0E5RTCbw172O8YbztFvp4oNn4lq1nSWoI3sZpUptMEr5eHubETOXN4urPg25Y1KpuVBios%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 7c4191296c85457c-ATL
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+OkHttp-Sent-Millis: 1683547486622
+OkHttp-Received-Millis: 1683547486678
+```
 
 ### Example Reponse Body
 ```
