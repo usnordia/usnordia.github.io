@@ -9,7 +9,7 @@ This documentation includes three parts:
 * the reference OpenAPI 3.1.0 specification for the icanhazdadjoke API endpoint.
 
 # Step-by-Step Tutorial
-You can use the icanhazdadjoke API with the command line or with an API platform, for example, Postman. This section explains both methods.
+You can use the icanhazdadjoke API with the command line or with an API platform, for example, the JetBrains IntelliJ IDE. This section explains both methods.
 ## API Structure
 ### Method
 GET 
