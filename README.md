@@ -133,6 +133,11 @@ The following contains the OpenAPI 3.1.0 endpoint documentation. The [APIMATIC S
 in YAML format. To render the documentation in Swagger, copy and paste the YAML code that follows into the left pane of this page and click "Try it Out":
 [Swagger Editor](https://editor-next.swagger.io/).
 
+## Example Swagger Editor Rendering
+![image](image_1.PNG)
+
+![image](image_2.PNG)
+
 
 ```
 openapi: 3.1.0
